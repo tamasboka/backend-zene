@@ -1,2 +1,3 @@
 <?php
-$tracks = json_decode(file_get_contents(__DIR__ . '/data.json'));
+require "functions.php";
+$tracks = get_all_tracks();
