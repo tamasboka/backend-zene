@@ -1,0 +1,146 @@
+[
+  {
+    "id":1,
+    "title":"Bohemian Rhapsody",
+    "performer":"Queen",
+    "album":"A Night at the Opera",
+    "length":354,
+    "genre":"rock",
+    "year":1975
+  },
+  {
+    "id":2,
+    "title":"Billie Jean",
+    "performer":"Michael Jackson",
+    "album":"Thriller",
+    "length":294,
+    "genre":"pop",
+    "year":1982
+  },
+  {
+    "id": 3,
+    "title": "Feel Good Inc.",
+    "performer": "Gorillaz",
+    "album": "Demon Days",
+    "length": 215,
+    "genre": "Alternative rock",
+    "year": 2005
+  },
+  {
+    "id": 4,
+    "title": "Clint Eastwood",
+    "performer": "Gorillaz",
+    "album": "Gorillaz",
+    "length": 267,
+    "genre": "Alternative rock",
+    "year": 2001
+  },
+  {
+    "id": 5,
+    "title": "November Has Come",
+    "performer": "Gorillaz & MF Doom",
+    "album": "Demon Days",
+    "length": 286,
+    "genre": "Dance/Electronic",
+    "year": 2005
+  },
+  {
+    "id": 6,
+    "title": "O Green World",
+    "performer": "Gorillaz",
+    "album": "Demon Days",
+    "length": 275,
+    "genre": "Alternative rock",
+    "year": 2005
+  },
+  {
+    "id": 7,
+    "title": "Don't Stop Me Now",
+    "performer": "Queen",
+    "album": "Jazz",
+    "length": 212,
+    "genre": "Pop-rock",
+    "year": 1979
+  },
+  {
+    "id": 8,
+    "title": "Bad Romance",
+    "performer": "Lady Gaga",
+    "album": "The Fame Monster",
+    "length": 308,
+    "genre": "Pop",
+    "year": 209
+  },
+  {
+    "id": 9,
+    "title": "1-800",
+    "performer": "bbno$",
+    "album": null,
+    "length": 208,
+    "genre": "Hip house",
+    "year": 2025
+  },
+  {
+    "id": 10,
+    "title": "Enter Sandman",
+    "performer": "Metallica",
+    "album": "The Black Album",
+    "length": 330,
+    "genre": "Metal",
+    "year": 1991
+  },
+  {
+    "id": 11,
+    "title": "Highway to Hell",
+    "performer": "AC/DC",
+    "album": "Highway to Hell",
+    "length": 328,
+    "genre": "Hard rock",
+    "year": 1979
+  },
+  {
+    "id": 12,
+    "title": "I Can't Decide",
+    "performer": "Scissor Sisters",
+    "album": "Ta-Dah",
+    "length": 166,
+    "genre": "Alternative",
+    "year": 2006
+  },
+  {
+    "id": 13,
+    "title": "The Ultimate Showdown of Ultimate Destiny",
+    "performer": "Lemon Demon",
+    "album": "Dinosaurchestra",
+    "length": 213,
+    "genre": "Alternative",
+    "year": 2010
+  },
+  {
+    "id": 14,
+    "title": "Master of Puppets",
+    "performer": "Metallica",
+    "album": "Master of Puppets",
+    "length": 516,
+    "genre": "Metal",
+    "year": 1986
+  },
+  {
+    "id": 15,
+    "title": "Buddy Holly",
+    "performer": "Weezer",
+    "album": "Weezer",
+    "length": 159,
+    "genre": "Rock",
+    "year": 1994
+  },
+  {
+    "id": 16,
+    "title": "Till I Collapse",
+    "performer": "Eminem",
+    "album": "The Eminem Show",
+    "length": 297,
+    "genre": "Rap",
+    "year": 2002
+  }
+]
