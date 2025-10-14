@@ -1,6 +1,5 @@
 <?php
 require "app/view_functions.php";
-require "app/data.php";
 ?>
 
 <h1 class="title is-1 is-justify-content-center is-flex mt-3">Playlist</h1>
@@ -14,7 +13,22 @@ require "app/data.php";
                 <div class="field">
                     <label for="genre">Genre</label>
                     <div class="control">
-                        <input id="genre" class="input is-rounded" type="text" name="genre">
+                        <div class="select is-rounded">
+                            <select name="genre" id="genre">
+                                <option>All</option>
+                                <?php
+                                $genres = [];
+                                foreach ($tracks as $track){
+                                    if (!in_array($track['genre'], $genres)) {
+                                        $genres[] = $track['genre'];
+                                    }
+                                }
+                                foreach ($genres as $genre){
+                                    echo "<option>$genre</option>";
+                                }
+                                ?>
+                            </select>
+                        </div>
                     </div>
                 </div>
                 <div class="field">
@@ -22,6 +36,7 @@ require "app/data.php";
                     <div class="control">
                         <div class="select is-rounded">
                             <select name="decade" id="decade">
+                                <option>All</option>
                                 <?php
                                     $decade = 1970;
                                     while ($decade < 2030) {
@@ -54,7 +69,7 @@ require "app/data.php";
             </thead>
             <tbody>
             <?php
-            foreach ($tracks as $track) {
+            foreach ($used_tracks as $track) {
                 echo render_track_row($track);
             }
             ?>
