@@ -5,7 +5,7 @@
     "performer":"Queen",
     "album":"A Night at the Opera",
     "length":354,
-    "genre":"rock",
+    "genre":"Rock",
     "year":1975
   },
   {
@@ -14,7 +14,7 @@
     "performer":"Michael Jackson",
     "album":"Thriller",
     "length":294,
-    "genre":"pop",
+    "genre":"Pop",
     "year":1982
   },
   {
@@ -142,5 +142,50 @@
     "length": 297,
     "genre": "Rap",
     "year": 2002
+  },
+  {
+    "id": 17,
+    "title": "Can't Be Touched",
+    "performer": "Roy Jones Jr, Mr. Magic, Trouble",
+    "album": "Body Head Bangerz, Vol. 1",
+    "length": 217,
+    "genre": "Rap",
+    "year": 2012
+  },
+  {
+    "id": 18,
+    "title": "Many Men (Wish Death)",
+    "performer": "50 Cent",
+    "album": "Get Rich Or Die Tryin'",
+    "length": 256,
+    "genre": "Rap",
+    "year": 2003
+  },
+  {
+    "id": 19,
+    "title": "8 Mile",
+    "performer": "Eminem",
+    "album:": "8 Mile",
+    "length": 359,
+    "genre": "Rap",
+    "year": 2002
+  },
+  {
+    "id": 20,
+    "title": "Everybody's Looking At Me",
+    "performer": "Eminem",
+    "album": "Stans",
+    "length": 355,
+    "genre": "Rap",
+    "year": 2025
+  },
+  {
+    "id": 21,
+    "title": "Points of Authority",
+    "performer": "Linkin Park",
+    "album": "Hybrid Theory",
+    "length": 200,
+    "genre": "Nu Metal",
+    "year": 2000
   }
 ]
