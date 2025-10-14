@@ -5,7 +5,14 @@
     <title>Zene</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
     <style>
-
+        body {
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+        main {
+            flex: 1 0 auto;
+        }
     </style>
 </head>
 <header>
@@ -20,3 +27,4 @@
     </nav>
 </header>
 <body>
+<main>
