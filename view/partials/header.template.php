@@ -15,6 +15,7 @@
         }
     </style>
 </head>
+<body>
 <header>
     <nav class="navbar">
         <div class="container">
@@ -26,5 +27,4 @@
         </div>
     </nav>
 </header>
-<body>
 <main>
