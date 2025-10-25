@@ -69,7 +69,7 @@
     "album": "The Fame Monster",
     "length": 308,
     "genre": "Pop",
-    "year": 209
+    "year": 2009
   },
   {
     "id": 9,
@@ -187,5 +187,86 @@
     "length": 200,
     "genre": "Nu Metal",
     "year": 2000
+  },
+  {
+    "id": 22,
+    "title": "Feel It Still",
+    "performer": "Portugal. The Man",
+    "album": "Woodstock",
+    "length": 171,
+    "genre": "Pop",
+    "year": 2017
+  },
+  {
+    "id": 23,
+    "title": "APT.",
+    "performer": "ROSÉ & Bruno Mars",
+    "album": "Rosie",
+    "length": 173,
+    "genre": "K-Pop",
+    "year": 2024
+  },
+  {
+    "id": 24,
+    "title": "Mennyország tourist",
+    "performer": "Tankcsapda",
+    "album": "Tankológia",
+    "length": 252,
+    "genre": "Metal",
+    "year": 1999
+  },
+  {
+    "id": 25,
+    "title": "Hummingbird",
+    "performer": "Metro Boomin & James Blake",
+    "album": "Spider-Man: Across the Spider-Verse soundtrack",
+    "length": 319,
+    "genre": "Hip Hop",
+    "year": 2023
+  },
+  {
+    "id": 26,
+    "title": "Guns for Hire",
+    "performer": "WOODKID",
+    "album": "Arcane soundtrack",
+    "length": 226,
+    "genre": "Alternative",
+    "year": 2021
+  },
+  {
+    "id": 27,
+    "title": "Paint The Town Blue",
+    "performer": "Ashnikko",
+    "album": "Arcane soundtrack",
+    "length": 115,
+    "genre": "Pop",
+    "year": 2024
+  },
+  {
+    "id": 28,
+    "title": "Ma Meilleure Ennemie",
+    "performer": "Stromae",
+    "album": "Arcane soundtrack",
+    "length": 147,
+    "genre": "Pop",
+    "year": 2024
+  },
+  {
+    "id": 29,
+    "title": "The Line",
+    "performer": "twenty one pilots",
+    "album": "Arcane soundtrack",
+    "length": 234,
+    "genre": "Pop-rock",
+    "year": 2024
+  },
+  {
+    "id": 30,
+    "title": "Ride",
+    "performer": "twenty one pilots",
+    "album": "Blurryface",
+    "length": 225,
+    "genre": "Rock",
+    "year": 2015
   }
 ]
