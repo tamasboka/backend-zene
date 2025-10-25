@@ -56,7 +56,8 @@ require "app/view_functions.php";
         <p>&nbsp;</p>
     </div>
     <div class="column is-8">
-        <table class="table">
+        <?php if (count($used_tracks) != 0):?>
+        <table class="table is-striped is-hoverable">
             <thead>
             <tr>
                 <th>Title</th>
@@ -75,5 +76,8 @@ require "app/view_functions.php";
             ?>
             </tbody>
         </table>
+        <?php else:?>
+            <h4 class="subtitle is-4 is-justify-content-center is-flex mt-3">There are no tracks that match these filters! Sorry!</h4>
+        <?php endif;?>
     </div>
 </div>
