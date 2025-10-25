@@ -3,7 +3,7 @@
 ?>
 
 <h1 class="title is-1 is-justify-content-center is-flex mt-3">Welcome!</h1>
-<h4 class="subtitle is-4 is-justify-content-center is-flex mt-3">Go and explore our site!</h4>
+<h4 class="subtitle is-4 is-justify-content-center is-flex mt-3">Explore my site!</h4>
 <div class="container mt-6">
     <div class="columns">
         <div class="column is-4">
