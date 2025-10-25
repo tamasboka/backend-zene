@@ -61,3 +61,19 @@ function get_tracks_by_decade(array $tracks, int $decade): array
     }
     return $filtered_tracks;
 }
+
+function get_oldest_track_index ($tracks, $oldest = true): int {
+    $oldest_year_index = 0;
+    for ($i = 0; $i < count($tracks); $i++){
+        if ($oldest){
+            if ($tracks[$i]["year"] < $tracks[$oldest_year_index]["year"]){
+                $oldest_year_index = $i;
+            }
+        } else {
+            if ($tracks[$i]["year"] > $tracks[$oldest_year_index]["year"]){
+                $oldest_year_index = $i;
+            }
+        }
+    }
+    return $oldest_year_index;
+}
