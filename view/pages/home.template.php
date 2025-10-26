@@ -10,7 +10,7 @@
             <div class="card">
                 <div class="card-header">
                     <div class="card-header-title is-justify-content-center is-flex">
-                        Check out our playlist!
+                        Check out the playlist!
                     </div>
                 </div>
                 <div class="card-content is-justify-content-center is-flex">
@@ -24,7 +24,7 @@
             <div class="card">
                 <div class="card-header">
                     <div class="card-header-title is-justify-content-center is-flex">
-                        Check out our statistics!
+                        Check out the statistics!
                     </div>
                 </div>
                 <div class="card-content is-justify-content-center is-flex">
