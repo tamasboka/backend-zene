@@ -7,7 +7,7 @@
 
     </div>
     <div class="column is-4">
-        <?php if ($_POST["title"] && $_POST["performer"] && $_POST["year"] && $_POST["genre"] && $_POST["album"] && $_POST["length"]): ?>
+        <?php if (isset($_POST["title"]) && isset($_POST["performer"]) && isset($_POST["year"]) && isset($_POST["genre"]) && isset($_POST["album"]) && isset($_POST["length"])): ?>
             <h2 class="subtitle is-2 is-justify-content-center is-flex mt-3 has-text-success">Track added successfully!</h2>
             <table class="table is-striped is-hoverable is-centered">
                 <thead>
