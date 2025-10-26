@@ -29,7 +29,7 @@
                 </div>
                 <div class="card-content is-justify-content-center is-flex">
                     <div class="content">
-                        <a class="button is-link is-dark" href="?stats=<?php if ($_GET["stats"] === "show") {echo "hide";} else {echo "show";}?>"><?php if ($_GET["stats"] === "show") {echo "Hide";} else {echo "Show";}?> stats</a>
+                        <a class="button is-link is-dark" href="?stats=<?php if (!isset($_GET["stats"]) || $_GET["stats"] === "hide") {echo "show";} else {echo "hide";}?>"><?php if (!isset($_GET["stats"]) || $_GET["stats"] === "hide") {echo "Show";} else {echo "Hide";}?> stats</a>
                     </div>
                 </div>
             </div>
@@ -52,7 +52,7 @@
         </div>
     </div>
 </div>
-<?php if ($_GET["stats"] === "show"):?>
+<?php if (isset($_GET["stats"]) && $_GET["stats"] === "show"):?>
 <div class="container mt-6">
     <h4 class="subtitle is-4 is-justify-content-center is-flex mt-3">Statistics</h4>
     <div class="columns">
